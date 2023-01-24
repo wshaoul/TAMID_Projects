@@ -2,11 +2,10 @@
 def isPalindrome(word) -> bool:
     return word == ''.join(list(reversed(word)))
 
+
 def sortArrays(arr1, arr2, k):
     arr1.extend(arr2)
     return sorted(arr1)[:k]
-
-
 
 
 def main():
